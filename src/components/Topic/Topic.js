@@ -2,8 +2,13 @@ import React from 'react';
 import './Topic.css'
 
 const Topic = ({topic}) => {
+   const startQuiz = (id) =>{
+    console.log(id);
+    
+
+   } 
     // console.log(topic);
-    const {name,logo,id,total} = topic;
+    const {id,name,logo,total} = topic;
     return (
         
         <div className="card col-lg-4 col-md-6 col-sm-12 m-2">
@@ -11,7 +16,7 @@ const Topic = ({topic}) => {
            <div className="card-body">
              <h5 className="card-title">{name}</h5>
              <p className="card-text">Total Quiz: {total}</p>
-             <button className='btn card-btn'>start</button>
+             <button onClick={() => {startQuiz(id)}} className=' card-btn'>start</button>
           </div>
         </div>
     );
