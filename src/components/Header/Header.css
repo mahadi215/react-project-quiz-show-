@@ -1,0 +1,16 @@
+.primary-color{
+    color: cornsilk;
+    
+
+}
+
+.navbar{
+    background-color: darkcyan;
+}
+.navbar-brand{
+    color: white;
+    font-weight: bolder;
+}
+.nav-link{
+    font-weight: bold;
+}
