@@ -9,6 +9,10 @@
     color: darkcyan;
     font-weight: bolder;
 }
+#hidden-ans{
+    background-color: greenyellow;
+    padding: 12px;
+}
 .radio-box{
     display: flex;
     padding: 5px;

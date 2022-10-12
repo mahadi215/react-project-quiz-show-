@@ -8,6 +8,7 @@ const SingleQuiz = ({q}) => {
                 <button className='c-ans'><i class="fa-solid fa-eye"></i></button>
             </div>
             <p className='question'>{question}</p>
+            <p id='hidden-ans' className=' text-white'>correct answer is: {correctAnswer}</p>
             {
                 options.map(option => <div className='radio-box'>
                     <input type="radio" id={id} name="1" value={option}/>
