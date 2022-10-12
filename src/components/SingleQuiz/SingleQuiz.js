@@ -11,8 +11,15 @@ const SingleQuiz = ({q}) => {
         //  console.log(ans);
         
     }
-    const check = () =>{
-        
+    const check = (e) =>{
+            // console.log(e.target.value);
+            const x = e.target.value;
+            if (x === correctAnswer) {
+                console.log('good');
+            }
+            else{
+                console.log('bad');
+            }
     }
     return (
         <div className='quiz-box'>
