@@ -1,7 +1,7 @@
 .quiz-box{
     background-color: #efefef;
     border: 1px solid gainsboro;
-    margin: 10px auto;
+    margin: 20px auto;
     padding: 10px;
     width: 600px;
 }
@@ -10,8 +10,9 @@
     font-weight: bolder;
 }
 #hidden-ans{
-    background-color: greenyellow;
-    padding: 12px;
+    background-color: rgb(54, 56, 51);
+    padding: 4px;
+    
 }
 .radio-box{
     display: flex;
@@ -27,5 +28,6 @@
 .c-ans{
     border: none;
     margin: 5px;
+    
 
 }

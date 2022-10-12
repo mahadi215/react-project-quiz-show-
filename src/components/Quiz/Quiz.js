@@ -5,10 +5,10 @@ import SingleQuiz from '../SingleQuiz/SingleQuiz';
 const Quiz = () => {
     const quizes = useLoaderData();
     console.log(quizes);
-    const {questions} = quizes.data;
+    const {questions,name} = quizes.data;
     return (
         <div>
-            <h1>hello</h1>
+             <h2 className='text-center'> Quiz of {name}</h2>
             {
                 questions.map(q => <SingleQuiz
                 q={q}
