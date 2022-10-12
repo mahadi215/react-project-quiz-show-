@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './SingleQuiz.css'
 const SingleQuiz = ({q}) => {
     const {question,id,correctAnswer,options} = q;
     return (
