@@ -9,3 +9,19 @@
     color: darkcyan;
     font-weight: bolder;
 }
+.radio-box{
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    border:  2px solid darkcyan;
+    margin: 5px;
+}
+.radio-box input{
+    margin-right: 4px;
+}
+.c-ans{
+    border: none;
+    margin: 5px;
+
+}
