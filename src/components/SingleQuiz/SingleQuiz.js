@@ -15,10 +15,10 @@ const SingleQuiz = ({q}) => {
             // console.log(e.target.value);
             const x = e.target.value;
             if (x === correctAnswer) {
-                console.log('good');
+                alert('your ans is correct')
             }
             else{
-                console.log('bad');
+                alert('your ans is inncorrect')
             }
     }
     return (
