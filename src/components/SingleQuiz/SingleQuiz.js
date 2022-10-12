@@ -28,7 +28,7 @@ const SingleQuiz = ({q}) => {
                 <button onClick={showAns} className='c-ans'><i class="fa-solid fa-eye"></i></button>
                 <p >correct answer is: {ans}</p>
             </div>
-            <h4 className='question'>{question} f</h4>
+            <h4 className='question'>{question}</h4>
             {
                 options.map(option => <div className='radio-box'>
                     <input type="radio" id={id} name="1" value={option} onClick={check} />
