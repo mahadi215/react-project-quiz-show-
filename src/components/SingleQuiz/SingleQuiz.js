@@ -4,7 +4,13 @@ const SingleQuiz = ({q}) => {
     const {question,id,correctAnswer,options} = q;
     return (
         <div className='quiz-box'>
-            <p>{question}</p>
+            <p className='question'>{question}</p>
+            {
+                options.map(option => <div>
+                    <input type="radio" id={id} name="1" value={option}/>
+                    <label for="1">{option}</label>
+                  </div>)
+            }
             
         </div>
     );
