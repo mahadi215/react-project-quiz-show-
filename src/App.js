@@ -8,6 +8,7 @@ import Topics from './components/Topics/Topics';
 import Topic from './components/Topic/Topic';
 import Main from './Layout/Main/Main';
 import Quiz from './components/Quiz/Quiz';
+import Error from './components/Error/Error';
 
 function App() {
   const router = createBrowserRouter([
@@ -44,6 +45,10 @@ function App() {
           path:'/blog',
           element:<Blog></Blog>
         },
+        {
+          path:'*',
+          element: <Error></Error>
+        }
         
       ]
     }

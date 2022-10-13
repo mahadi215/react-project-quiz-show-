@@ -15,3 +15,10 @@
     color: white;
     width: 80%;
 }
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #efefef;
+    width: 100%;
+}
