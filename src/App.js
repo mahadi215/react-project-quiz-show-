@@ -1,5 +1,5 @@
 
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createBrowserRouter, RouterProvider, useLoaderData } from 'react-router-dom';
 import './App.css';
 import Blog from './components/Blog/Blog';
 import Chart from './components/Chart/Chart';
@@ -39,6 +39,7 @@ function App() {
         },
         {
           path:'/chart',
+          loader: () => fetch('https://openapi.programming-hero.com/api/quiz'),
           element:<Chart></Chart>
         },
         {

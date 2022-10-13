@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Link } from 'react-router-dom';
 import './Topic.css'
 
@@ -10,7 +10,9 @@ const Topic = ({topic}) => {
 
   //  } 
     // console.log(topic);
+    
     const {id,name,logo,total} = topic;
+    
     return (
         
         <div className="card col-lg-4 col-md-6 col-sm-12 m-2">
